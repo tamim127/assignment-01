@@ -1,16 +1,16 @@
 
-/* fonts  */
+/* Global fonts  */
 
-.raleway-normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-.inter-normal{
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 /* header */
@@ -22,6 +22,12 @@
     height: 698px;
     margin: 0 auto;
 }
+.logo-text-style {
+    font-weight: 900;
+    font-size: 36px;
+    color: #4E47FF;
+}
+
 
 /* nav styles */
 nav {
@@ -34,7 +40,7 @@ nav {
 }
 
 nav ul li {
-    list-style:none;
+    list-style: none;
 }
 
 /* banner styles */
@@ -43,44 +49,47 @@ nav ul li {
     max-width: 905px;
     height: 237px;
     margin: 0 auto;
-    padding: 158px 117px 152px 117px ;
+    padding: 158px 117px 152px 117px;
 }
 
 .banner-title {
     font-weight: bold;
     font-size: 65px;
-    
-    
+
+
 }
 
-.div-action{
+.div-action {
     display: flex;
     max-width: 1140px;
     height: 328px;
     margin: 100px auto;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
-.left-section{
+.left-section {
     max-width: 517px;
     height: 203px;
     padding: 62.5px 220px 62.5px 0;
     line-height: 23px;
 
 }
-.right-section{
+
+.right-section {
     max-width: 403px;
     height: 328px;
     border-radius: 48px;
     margin-left: 159px;
 
 }
-.wc-title{
-font-weight:bold ;
+
+.wc-title {
+    font-weight: bold;
     font-size: 42px;
 }
+
 /* shared style */
 .btn-primary {
     background-color: #4E47FF;
@@ -91,74 +100,154 @@ font-weight:bold ;
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    transition:0.2s;
-    
+    transition: 0.2s;
+
+}
+.btn {
+    align-items: center;
+    width: 100%;
 }
 /*Hover Effect */
 .btn-primary:hover {
-  background-color: #c505eb;
-  font-size: 18px;
-  color:#000000;
+    background-color: #c505eb;
+    font-size: 18px;
+    color: #000000;
 
 }
 
-        
-.logo-style {
-    font-weight: 900;
-    font-size: 36px;
-    color: #4E47FF;
-}
-.logo-style-2{
-    font-weight: 900;
-    font-size: 100px;
-    color: #4E47FF;
-    margin-bottom:20px ;
-    
-}
- body{
-    background-color:#f5ebfa;
+
+
+
+body {
+    background-color: #f5ebfa;
     margin: 0;
     padding: 0;
 }
 
-/* footer style */
-footer{
-    background-color: white;
-}
-.f-content{
+
+
+/* Productive Users Section  */
+
+.user {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 142px;
     
-    text-align: center;
-    padding: 105px 455px;
-    margin: 0 auto;
-    max-width: 531px;
-}
-div ul li{
-    list-style: none;
-    
-}
-.f-texts{
-    font-size: 16px;
-    color: #8987A1;
-}
-div li a{
-    text-decoration: none;
-    color: #8987A1;
- 
-}
-.f-menu{
-display: flex;
-justify-content: center;
-gap: 48px;
-margin: 0;
-padding: 0;
 }
 
-/* form */
-.div-div{
- max-width: 1140px;
- margin: 0 auto;
+.div-user-section{
+    background-color: #d7d5fe;
+    text-align: center;
+    align-items: center;
+    border-radius: 24px;
+    max-width: 1140px;
+    height: 306px;
+    margin: 116px auto;
+    padding: 50px 0;
 }
- .form {
+
+.heading-text {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.span-text {
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+/* Users’ Feedback Section */
+
+.card-body {
+    max-width: 1140px;
+    padding: 0;
+    margin: 137px auto;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.all-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.cards {
+    background-color: white;
+    border: 1px solid #D6DDED;
+    border-radius: 14px;
+    padding: 24px;
+    width: 366.67px;
+    /* height: 243px;  */
+}
+
+.star-icon {
+    display: flex;
+    gap: 4px;
+    width: 116px;
+    height: 20px;
+    margin-bottom: 24px;
+}
+
+.star-icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.card-title {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: #111111;
+}
+
+.card-description {
+    font-size: 18px;
+    color: #12171f;
+    margin-bottom: 24px;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+}
+
+.reviewer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 12px;
+    
+}
+
+.reviewer-info .name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #111827;
+    margin-bottom: 2px;
+}
+
+.reviewer-info .date {
+    font-size: 18px;
+    color: #8987A1;
+}
+
+
+/* form-section-styles*/
+
+.contact-section{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.form-container{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,35 +258,20 @@ padding: 0;
     margin: auto;
 }
 
-.form-content {
+.contact-heading {
     width: 528px;
     height: 232px;
-    padding:0; 
-    margin:0;
+    padding: 0;
+    margin: 0;
     font-weight: 900;
     font-size: 90px;
     color: #000000;
     line-height: 1.2;
 }
 
-
-
-.btn-primary {
-    background-color: #4E47FF;
-    color: white;
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 36px;
-    border-radius: 10px;
-    border: none;
-    
-}
-.btn{
-    align-items: center;
-    width: 100%;
-}
-
-input[type="email"], input[type="text"], textarea{
+input[type="email"],
+input[type="text"],
+textarea {
     height: 70px;
     border-radius: 5px;
     background-color: white;
@@ -207,127 +281,66 @@ input[type="email"], input[type="text"], textarea{
     margin-bottom: 19px;
     border: 1px solid #D6DDED;
 }
-.label-text{
+
+.contact-form {
     font-size: 18px;
     color: #000000;
-    font-weight:600;
+    font-weight: 600;
 }
-.placeholder-text{
+
+.placeholder-text {
     font-size: 20px;
     color: #8987A1;
 }
-.textarea{
+
+.textarea {
     max-width: 497px;
     max-height: 135px;
     font-size: 20px;
-
-}
-
-/* section 3 */
-.user{
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 142px;
     
 }
-.div-user{
-    background-color: #d7d5fe;
-    text-align: center;
-    align-items: center;
-    border-radius: 24px;
-    max-width: 1140px;
-    height: 306px;
-    margin: 116px auto;
-    padding:50px 0;
-} 
 
-.user-text{
-    font-weight: bold;
-    font-size: 36px;
+/* footer-section-styles */
+
+footer {
+    background-color: white;
 }
-.span-text{
-    font-weight: bold;
-    font-size: 80px;
+
+.logo-text{
+    font-weight: 900;
+    font-size: 100px;
     color: #4E47FF;
+    margin-bottom: 20px;
+
+}
+.f-content {
+
+    text-align: center;
+    padding: 105px 455px;
+    margin: 0 auto;
+    max-width: 531px;
 }
 
+div ul li {
+    list-style: none;
 
-.card-body {
-  max-width: 1140px;
-  padding: 0;
-  margin: 137px auto;
 }
 
-.card-header {
-  font-weight: bold;
-  font-size: 42px;
-  text-align: center;
-  margin-bottom: 50px;
+.f-texts {
+    font-size: 16px;
+    color: #8987A1;
 }
 
-.all-card {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
+div li a {
+    text-decoration: none;
+    color: #8987A1;
+
 }
 
-.cards {
-  background-color: white;
-  border: 1px solid #D6DDED;
-  border-radius: 14px;
-  padding: 24px;
-  width: 366.67px;
-  /* height: 243px;  */
-}
-
-.star-icon {
-  display: flex;
-  gap: 4px;
-  width: 116px;
-  height: 20px;
-  margin-bottom: 24px;
-}
-
-.star-icon img {
-  width: 20px;
-  height: 20px;
-}
-
-.card-title {
-  font-weight: bold;
-  font-size: 25px;
-  margin-bottom: 8px;
-  color: #111111;
-}
-
-.card-description {
-  font-size: 18px;
-  color: #12171f;
-  margin-bottom: 24px;
-}
-
-.reviewer {
-  display: flex;
-  align-items: center;
-  margin-top: auto;
-}
-
-.reviewer img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  margin-right: 12px;
-  
-}
-
-.reviewer-info .name {
-  font-weight: bold;
-  font-size: 18px;
-  color: #111827;
-  margin-bottom: 2px;
-}
-
-.reviewer-info .date {
-  font-size: 18px;
-  color: #8987A1;
+.f-menu {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin: 0;
+    padding: 0;
 }
